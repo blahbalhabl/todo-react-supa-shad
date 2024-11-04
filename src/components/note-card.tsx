@@ -93,6 +93,9 @@ const NoteCard = ({ note }: { note: Todo }) => {
           </Button>
         )}
       </CardFooter>
+      <div className="mb-5 flex w-full justify-center" data-swapy-handle>
+        <Icon icon="fxemoji:hamburger" />
+      </div>
     </Card>
   );
 };

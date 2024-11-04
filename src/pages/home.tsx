@@ -40,6 +40,7 @@ const Home = () => {
 
     const swapy = createSwapy(container, {
       swapMode: 'hover',
+      autoScrollOnDrag: true,
       animation: 'spring',
     });
 
